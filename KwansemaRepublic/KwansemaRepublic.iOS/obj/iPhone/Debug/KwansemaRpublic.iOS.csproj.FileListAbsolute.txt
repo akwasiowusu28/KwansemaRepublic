@@ -1,0 +1,17 @@
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\CorruptionWatchersiOS.exe
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\CorruptionWatchersiOS.pdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\CorruptionWatchers.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Domain.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\CorruptionWatchers.pdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\CorruptionWatchers.dll.mdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\bin\iPhone\Debug\Domain.pdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\obj\iPhone\Debug\
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\obj\iPhone\Debug\KwansemaRpublic.iOS.csprojResolveAssemblyReference.cache
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\obj\iPhone\Debug\CorruptionWatchersiOS.exe
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic.iOS\obj\iPhone\Debug\CorruptionWatchersiOS.pdb

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KwansemaRepublic.Views.MyCorruptionPracticeLocationPage"
+              Padding="10"
+             BackgroundColor="White"
+             >
+    <StackLayout Orientation="Vertical">
+      <Label Text="{Binding OtherLocationLabel}" />
+      <Entry x:Name="CityEntry" TextColor ="Black" Placeholder="City, town, village, institution, office etc" Text="{Binding City}" />
+
+      <Label Text="{Binding DescriptionLabel}" />
+      <Editor x:Name="DescriptionEditor" HeightRequest="150" />
+
+      <Label Text="{Binding EvidenceLabel}" />
+      <StackLayout Orientation="Horizontal">
+        <Button x:Name="Video" Text="{Binding VideoLabel}" />
+        <Button x:Name="Audio" Text="{Binding AudioLabel}" />
+        <Button x:Name="Gallery" Text="{Binding GalleryLabel}" />
+      </StackLayout>
+    </StackLayout>
+</ContentPage>

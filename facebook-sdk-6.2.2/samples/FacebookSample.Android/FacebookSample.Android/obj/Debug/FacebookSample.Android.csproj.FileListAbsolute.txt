@@ -1,0 +1,14 @@
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\bin\Debug\FacebookSample.Android.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\bin\Debug\FacebookSample.Android.pdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\bin\Debug\FacebookSample.Android.apk
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\bin\Debug\FacebookSample.Android-Signed.apk
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\bin\Debug\Facebook.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\FacebookSample.Android.csprojResolveAssemblyReference.cache
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\FacebookSample.Android.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\FacebookSample.Android.pdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\android\bin\FacebookSample.Android.apk
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\res\layout\main.xml
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\res\values\strings.xml
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\res\drawable\icon.png
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\R.cs.flag
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\uploadflags.txt

@@ -1,0 +1,15 @@
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\CorruptionWatchers.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\CorruptionWatchers.pdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\Domain.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\Domain.pdb
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\obj\Debug\CorruptionWatchers.csprojResolveAssemblyReference.cache
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\obj\Debug\MainPage.xaml.g.cs
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\obj\Debug\CorruptionPracticeDetailsPage.xaml.g.cs
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\obj\Debug\App.xaml.g.cs
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\obj\Debug\CorruptionWatchers.dll
+C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\CorruptionWatchers\CorruptionWatchers\obj\Debug\CorruptionWatchers.pdb
