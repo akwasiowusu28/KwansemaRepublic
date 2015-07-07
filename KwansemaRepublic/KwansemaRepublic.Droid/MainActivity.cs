@@ -15,9 +15,9 @@ namespace KwansemaRepublic.Droid
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
         private const string AppId = "799290236855997";
-        private const string ExtendedPermissions = "publish_pages";
+        private const string ExtendedPermissions = " publish_actions,publish_pages";
+        private const int Login_Request_Code = 28;
 
-        FacebookClient fb;
         string accessToken;
         bool isLoggedIn;
         string lastMessageId;
@@ -31,9 +31,23 @@ namespace KwansemaRepublic.Droid
             var webAuth = new Intent(this, typeof(FBWebViewAuthActivity));
             webAuth.PutExtra("AppId", AppId);
             webAuth.PutExtra("ExtendedPermissions", ExtendedPermissions);
-            StartActivityForResult(webAuth, 0);
+            StartActivityForResult(webAuth, 28);
 
             LoadApplication(new App());
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if (requestCode == Login_Request_Code && resultCode == Result.Ok)
+            {
+                String token = data.GetStringExtra("AccessToken");
+
+                FacebookClient client = new FacebookClient(token);
+
+                client.PostTaskAsync("1030146627004888/feed", new { message = "Step 1" });
+            }
         }
     }
 }

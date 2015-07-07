@@ -47,8 +47,9 @@ namespace KwansemaRepublic.Droid
 			webView.HorizontalScrollBarEnabled = true;
 			
 			webView.SetWebViewClient(new FBWebClient (this));
-			webView.SetWebChromeClient(new FBWebChromeClient (this));
-			
+
+            Title = "Fuck off!";
+
 			AddContentView(webView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.MatchParent));
 
 			webView.LoadUrl(url);
@@ -132,26 +133,6 @@ namespace KwansemaRepublic.Droid
 						parentActivity.Finish();
 					}
 				});
-			}
-		}
-		
-		private class FBWebChromeClient : WebChromeClient
-		{
-			private Activity mParentActivity;
-			
-			public FBWebChromeClient (Activity parentActivity)
-			{
-				mParentActivity = parentActivity;
-			}
-			
-			public override void OnProgressChanged(WebView view, int newProgress)
-			{
-				mParentActivity.Title = string.Format("Loading {0}%", newProgress);
-				mParentActivity.SetProgress(newProgress * 100);
-
-				if (newProgress == 100) {
-					mParentActivity.Title = "Fuck off!";
-				}
 			}
 		}
 	}

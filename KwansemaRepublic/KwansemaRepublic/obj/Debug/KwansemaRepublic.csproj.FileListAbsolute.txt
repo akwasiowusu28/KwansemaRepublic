@@ -16,7 +16,6 @@ C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\Kwansem
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\CorruptionWatchers.dll
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\CorruptionWatchers.pdb
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Domain.dll
-C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Facebook.dll
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Xamarin.Forms.Xaml.dll
