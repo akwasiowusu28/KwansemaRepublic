@@ -62,8 +62,8 @@ namespace KwansemaRepublic.ViewModels
             {CorruptionTypeEnums.ABUSE, ImageSource.FromResource(StringSource.AbuseImage)},
             {CorruptionTypeEnums.WASTE, ImageSource.FromResource(StringSource.WasteImage)},
             {CorruptionTypeEnums.EXTORTION, ImageSource.FromResource(StringSource.ExtortionImage)},
-            {CorruptionTypeEnums.EMBEZZLEMENT,ImageSource.FromResource(StringSource.EmbezzlementImage)},
-            {CorruptionTypeEnums.FAVORATISM,ImageSource.FromResource(StringSource.favoratismNCImage)},
+            {CorruptionTypeEnums.EMBEZZLEMENT, ImageSource.FromResource(StringSource.EmbezzlementImage)},
+            {CorruptionTypeEnums.FAVORATISM, ImageSource.FromResource(StringSource.favoratismNCImage)},
         };
 
         private enum CorruptionTypeEnums

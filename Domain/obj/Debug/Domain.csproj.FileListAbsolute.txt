@@ -2,3 +2,8 @@ C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\Domain\
 C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\Domain\bin\Debug\Domain.pdb
 C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\Domain\obj\Debug\Domain.dll
 C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\Domain\obj\Debug\Domain.pdb
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\Domain\bin\Debug\Domain.dll
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\Domain\bin\Debug\Domain.pdb
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\Domain\obj\Debug\Domain.dll
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\Domain\obj\Debug\Domain.pdb
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache

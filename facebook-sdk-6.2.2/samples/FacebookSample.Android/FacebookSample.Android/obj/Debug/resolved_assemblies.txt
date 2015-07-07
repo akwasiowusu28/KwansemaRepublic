@@ -1,2 +1,0 @@
-C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\assemblies\FacebookSample.Android.dll
-C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\facebook-sdk-6.2.2\samples\FacebookSample.Android\FacebookSample.Android\obj\Debug\assemblies\Facebook.dll
