@@ -26,6 +26,8 @@ namespace KwansemaRepublic.Views {
         
         private Button Gallery;
         
+        private Button Submit;
+        
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MyCorruptionPracticeLocationPage));
             CityEntry = this.FindByName<Entry>("CityEntry");
@@ -33,6 +35,7 @@ namespace KwansemaRepublic.Views {
             Video = this.FindByName<Button>("Video");
             Audio = this.FindByName<Button>("Audio");
             Gallery = this.FindByName<Button>("Gallery");
+            Submit = this.FindByName<Button>("Submit");
         }
     }
 }

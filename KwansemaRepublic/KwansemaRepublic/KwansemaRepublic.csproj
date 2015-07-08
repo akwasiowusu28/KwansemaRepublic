@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KwansemaRepublic</RootNamespace>
-    <AssemblyName>CorruptionWatchers</AssemblyName>
+    <AssemblyName>KwansemaRepublic</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -37,6 +37,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\CheckBox.cs" />
     <Compile Include="Support\ImageResourceExtension.cs" />
     <Compile Include="Views\CorruptionPracticeDetailsPage.xaml.cs">
       <DependentUpon>CorruptionPracticeDetailsPage.xaml</DependentUpon>

@@ -13,8 +13,6 @@ C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\Kwansem
 C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic\obj\Debug\CorruptionWatchers.dll
 C:\Users\aowusu\Documents\Visual Studio 2013\Projects\CorruptionWatchers\KwansemaRepublic\KwansemaRepublic\obj\Debug\CorruptionWatchers.pdb
-C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\CorruptionWatchers.dll
-C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\CorruptionWatchers.pdb
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Domain.dll
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\Xamarin.Forms.Platform.dll
@@ -26,5 +24,7 @@ C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\obj\Debug\MainPage.xaml.g.cs
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\obj\Debug\CorruptionPracticeDetailsPage.xaml.g.cs
 C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\obj\Debug\App.xaml.g.cs
-C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\obj\Debug\CorruptionWatchers.dll
-C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\obj\Debug\CorruptionWatchers.pdb
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\KwansemaRepublic.dll
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\bin\Debug\KwansemaRepublic.pdb
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\obj\Debug\KwansemaRepublic.dll
+C:\Users\aowusu\Source\Repos\KwansemaRepublic\KwansemaRepublic\KwansemaRepublic\obj\Debug\KwansemaRepublic.pdb

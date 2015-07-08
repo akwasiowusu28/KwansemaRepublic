@@ -1,4 +1,5 @@
-﻿using KwansemaRepublic.Support;
+﻿using Domain;
+using KwansemaRepublic.Support;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,56 +10,39 @@ using System.Threading.Tasks;
 
 namespace KwansemaRepublic.ViewModels
 {
-    public class CorruptionPracticeDetailsViewModel: INotifyPropertyChanged
+    public class CorruptionPracticeDetailsViewModel
     {
-        private class LocalConstants
-        {
-           
-        }
-        
-        public List<string> Regions { get; set; }
-        public String OtherLocationLabel { get { return StringSource.OtherLocationLabel; } }
-        public String DescriptionLabel { get { return StringSource.DescriptionLabel; } }
-        public String EvidenceLabel { get { return StringSource.EvidenceLabel; } }
-        public String VideoLabel { get { return StringSource.VideoLabel; } }
-        public String AudioLabel { get { return StringSource.AudioLabel; } }
-        public String GalleryLabel { get { return StringSource.GalleryLabel; } }
+        #region Labels
+        public string OtherLocationLabel { get { return StringSource.OtherLocationLabel; } }
+        public string DescriptionLabel { get { return StringSource.DescriptionLabel; } }
+        public string EvidenceLabel { get { return StringSource.EvidenceLabel; } }
+        public string VideoLabel { get { return StringSource.VideoLabel; } }
+        public string AudioLabel { get { return StringSource.AudioLabel; } }
+        public string GalleryLabel { get { return StringSource.GalleryLabel; } }
+        public string HonorCodeLabel { get { return StringSource.HonorCodeLabel; } }
+        public string HonorCode { get { return StringSource.HonorCode; } }
+        public string Submit { get { return StringSource.Submit; } }
+        #endregion
 
-        private int _SelectedRegion;
-        public int SelectedRegion
+        #region Methods
+        private void Submit()
         {
-            get { 
-                return _SelectedRegion;
-            }
-            set
+            if (App.Instance.CorruptionSubmitted != null)
             {
-                _SelectedRegion = value;
-                NotifyPropertyChanged();
-            }
-        }
+                var location = new Location("");
+                var videoPath = "";
+                var audioPath = "";
+                var imagePath = "";
+                var description = "";
 
-        private string _City;
-        public string City
-        {
-            get
-            {
-                return _City;
-            }
-            set
-            {
-                _City = value;
-                NotifyPropertyChanged();
+                Corruption corruption = new Corruption { Location = location, Description = description, 
+                                                         AudioPath = audioPath, VideoPath = videoPath, ImagePath = imagePath};
+
+                App.Instance.CorruptionSubmitted(corruption);
             }
         }
+        #endregion
 
-        public event PropertyChangedEventHandler PropertyChanged;
 
-        private void NotifyPropertyChanged([CallerMemberName]String propertyName = null)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
-        }
     }
 }

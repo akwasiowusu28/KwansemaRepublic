@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:KwansemaRepublic.Controls;assembly=KwansemaRepublic"
              x:Class="KwansemaRepublic.Views.MyCorruptionPracticeLocationPage"
               Padding="10"
              BackgroundColor="White"
              >
     <StackLayout Orientation="Vertical">
       <Label Text="{Binding OtherLocationLabel}" />
-      <Entry x:Name="CityEntry" TextColor ="Black" Placeholder="City, town, village, institution, office etc" Text="{Binding City}" />
+      <Entry x:Name="CityEntry" TextColor ="#191919" Placeholder="City, town, village, institution, office etc" Text="{Binding City}" />
 
       <Label Text="{Binding DescriptionLabel}" />
       <Editor x:Name="DescriptionEditor" HeightRequest="150" />
@@ -18,5 +19,9 @@
         <Button x:Name="Audio" Text="{Binding AudioLabel}" />
         <Button x:Name="Gallery" Text="{Binding GalleryLabel}" />
       </StackLayout>
+     <controls:CheckBox Text="{Binding HonorCodeLabel}" FontAttributes="Bold" TextColor="Black"/>
+     <Label Text="{Binding HonorCode}" />
+    
+     <Button x:Name="Submit" Text="{Binding Submit}" Command="{Binding SubmitCommand}" />
     </StackLayout>
 </ContentPage>

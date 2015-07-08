@@ -8,19 +8,15 @@ using Android.Widget;
 using Android.OS;
 using Android.Content;
 using Facebook;
+using Domain;
+using KwansemaRepublic.Support;
 
 namespace KwansemaRepublic.Droid
 {
     [Activity(Label = "Kwansema Republic", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
-        private const string AppId = "799290236855997";
-        private const string ExtendedPermissions = " publish_actions,publish_pages";
-        private const int Login_Request_Code = 28;
-
-        string accessToken;
-        bool isLoggedIn;
-        string lastMessageId;
+       
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -28,26 +24,15 @@ namespace KwansemaRepublic.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 
-            var webAuth = new Intent(this, typeof(FBWebViewAuthActivity));
-            webAuth.PutExtra("AppId", AppId);
-            webAuth.PutExtra("ExtendedPermissions", ExtendedPermissions);
-            StartActivityForResult(webAuth, 28);
-
-            LoadApplication(new App());
+            LoadApplication(App.Instance);
+            App.Instance.CorruptionSubmitted += (c) => OnCorruptionSubmitted(c);
+            
         }
 
-        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        private void OnCorruptionSubmitted(Corruption corruption)
         {
-            base.OnActivityResult(requestCode, resultCode, data);
-
-            if (requestCode == Login_Request_Code && resultCode == Result.Ok)
-            {
-                String token = data.GetStringExtra("AccessToken");
-
-                FacebookClient client = new FacebookClient(token);
-
-                client.PostTaskAsync("1030146627004888/feed", new { message = "Step 1" });
-            }
+            FacebookClient client = new FacebookClient(StringSource.FaceBookAccessToken);
+            client.PostTaskAsync(StringSource.FaceBookPage, new { message = corruption.Description });
         }
     }
 }

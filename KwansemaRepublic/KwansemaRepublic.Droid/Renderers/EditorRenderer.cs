@@ -27,8 +27,8 @@ namespace KwansemaRepublic.Droid.Renderers
             if (Control != null)
             {
                 Control.SetHintTextColor(Color.Gray);
-                
-               Control.Background = GetBackground();
+                Control.Background = Resources.GetDrawable(global::Android.Resource.Drawable.EditBoxBackgroundNormal);
+                Control.SetTextColor(Color.DarkGray);
             }
         }
 

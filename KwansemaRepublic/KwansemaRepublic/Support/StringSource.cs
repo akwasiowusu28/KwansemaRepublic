@@ -8,6 +8,7 @@ namespace KwansemaRepublic.Support
 {
     public static class StringSource
     {
+        public const string FaceBookAccessToken = "CAALW80Kj5r0BAMgqzYVUArhBTooabGwpl3PfYJpmmlPyYIxDIZCVE31qZA4ZCHOCKcpQQFbmWXATA6BU3BnfgGTPIPLhFOiIRhGtoaxnNcG5oyhV2dWMqIrmVEAsEuRUKose1PclWwxB1Ve7SbGWxnNZBEgWENknqZCCsmkbyrErZCXlpeJ7mY";
         public const string MainPageTopLevelText = "For the love of God, my country and myself, I'd like to report a case of: ";
         public const string Fraud = "Fraud";
         public const string Bribery = "Bribery";
@@ -38,6 +39,9 @@ namespace KwansemaRepublic.Support
         public const string AudioLabel = "Recording";
         public const string PhotoLabel = "Picture";
         public const string GalleryLabel = "Gallery";
-
+        public const string HonorCodeLabel = "Honor code:";
+        public const string HonorCode = "I promise that this is true and not a libelous statement meant to ruin someone's/institution's reputation.";
+        public const string Submit = "Submit";
+        public const string FaceBookPage = "1030146627004888/feed";
     }
 }
